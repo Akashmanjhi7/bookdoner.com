@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(aqua,rgb(79, 79, 229));
+    height: 100vh;
+    background-repeat: no-repeat;
+  }
+  .header {
+    background-color: #1cb4e7;
+    color: white;
+    padding: 20px;
+  }
+  .container {
+    width: 500px;
+    margin:  auto;
+    margin-top: 8%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;   
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .loginbtn {
+    background-color: #4CAF50;
+  }
+  
+  .signupbtn {
+    background-color: #f44336;
+  }
+
+  /* After login page
+   */
+  
